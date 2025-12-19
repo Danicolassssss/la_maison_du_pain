@@ -12,7 +12,7 @@ export default function Contact() {
         <section className="relative h-75 w-full flex items-center justify-center text-center text-white">
           <div className="absolute inset-0 z-0">
             <Image
-                src="https://placehold.co/1920x300/5C4033/FFFFFF?text=Contactez-nous"
+                src="/int2.jpeg"
                 alt="Contact"
                 fill
                 className="object-cover brightness-50"
@@ -64,7 +64,7 @@ export default function Contact() {
               </div>
               <div className="mt-8 relative h-48 rounded-lg overflow-hidden">
                 <Image
-                    src="https://placehold.co/600x300/D4A574/FFFFFF?text=Façade+Magasin"
+                    src="/devanture.jpeg"
                     alt="Façade de la boulangerie"
                     fill
                     className="object-cover"

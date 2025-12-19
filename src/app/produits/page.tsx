@@ -83,7 +83,7 @@ export default function Produits() {
       <section className="relative h-[400px] w-full flex items-center justify-center text-center text-white">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://placehold.co/1920x400/5C4033/FFFFFF?text=Nos+Pains+et+Produits"
+            src="/touspdt.jpeg"
             alt="Nos Pains"
             fill
             className="object-cover brightness-50"

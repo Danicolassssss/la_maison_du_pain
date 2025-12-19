@@ -6,31 +6,31 @@ export default function Histoire() {
       name: "Jean Dupont",
       role: "Maître Boulanger",
       bio: "37 ans de métier, CAP 1986, perfectionné en Suisse. Créateur de notre levain secret.",
-      img: "https://placehold.co/300x300/D4A574/FFFFFF?text=Jean",
+      img: "/thierryBoulanger.jpeg",
     },
     {
       name: "Marie Dupont",
       role: "Vendeuse & Accueil",
       bio: "Épouse de Jean, gère la boutique avec sourire depuis 1990.",
-      img: "https://placehold.co/300x300/5C4033/FFFFFF?text=Marie",
+      img: "/mdmboulager.jpeg",
     },
     {
       name: "Lucas",
       role: "Apprenti",
       bio: "Apprenti CAP 1ère année, passion pour le fournil.",
-      img: "https://placehold.co/300x300/6B8E23/FFFFFF?text=Lucas",
+      img: "/aprentis.jpeg",
     },
     {
       name: "Sophie",
       role: "Vendeuse",
       bio: "Rejoint l'équipe en 2015, experte en conseils produits.",
-      img: "https://placehold.co/300x300/FBF7F0/2C2C2C?text=Sophie",
+      img: "/sophie.jpeg",
     },
     {
       name: "Thomas",
       role: "Boulanger",
       bio: "Bras droit de Jean, spécialiste des viennoiseries.",
-      img: "https://placehold.co/300x300/D4A574/FFFFFF?text=Thomas",
+      img: "/thomasboulanger.jpeg",
     },
   ];
 
@@ -40,7 +40,7 @@ export default function Histoire() {
       <section className="relative h-100 w-full flex items-center justify-center text-center text-white">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://placehold.co/1920x400/2C2C2C/FFFFFF?text=Notre+Histoire"
+            src="/int.jpeg"
             alt="Notre Histoire"
             fill
             className="object-cover brightness-50"
@@ -59,7 +59,7 @@ export default function Histoire() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2 relative h-100 rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="https://placehold.co/700x400/5C4033/FFFFFF?text=Boulangerie+1990"
+              src="/valeur.jpeg"
               alt="La boulangerie dans les années 90"
               fill
               className="object-cover"

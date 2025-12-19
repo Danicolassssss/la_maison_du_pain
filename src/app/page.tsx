@@ -194,7 +194,7 @@ export default function Home() {
       <section className="relative py-20 px-4 text-center text-white">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://placehold.co/1920x400/2C2C2C/FFFFFF?text=Fournil"
+            src="/fournil.jpeg"
             alt="Fournil"
             fill
             className="object-cover brightness-50"
